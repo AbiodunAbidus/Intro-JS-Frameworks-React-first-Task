@@ -6,9 +6,9 @@ function ProfileCard({ name, img, description
     return (
     <>
    <div>
-    <h1> {name}</h1>
+    <h1 style={{ color: 'yellow' }}>{name}</h1>
     <img  src={img} alt="profile image" />
-    <p className='heading'>{description}</p>
+    <p className='description'>{description}</p>
    </div>
          </>
     );

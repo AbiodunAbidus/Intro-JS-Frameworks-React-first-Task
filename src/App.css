@@ -3,7 +3,6 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  color: yellowgreen;
 }
 
 .logo {
@@ -41,12 +40,17 @@
 .read-the-docs {
   color: rgb(163, 25, 34);
 }
-
-.heading{
-  color: rgb(49, 220, 11);
+.Title{
+  color: rgb(28, 220, 11);
+}
+.description{
+  color: #1096d0;
+}
+.name{
+  color: #0bc4c742;
 }
 img {
-  border-radius: 50%;
+  border-radius: 70%;
   width: 200px;
   height: 200px;
 }

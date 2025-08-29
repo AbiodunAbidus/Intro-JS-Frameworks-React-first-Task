@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>  
-    <h1>My first Profile Card</h1>
+    <h1 className='Title'>My first Profile Card</h1>
     <ProfileCard name={'C. Ronaldo'} 
   img={"https://upload.wikimedia.org/wikipedia/commons/d/d7/Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg"} 
   description={"This is Ronaldo in Al-nassar Jersey "}/>
@@ -18,7 +18,9 @@ function App() {
   <ProfileCard name={'Okocha'} 
   img={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEq2-SPUzG27W0FKrgA0329bwIWhpadTIIaQ&s"} 
   description={"This is Okocha In Nigeria Jersey "}/>
-   
+  <ProfileCard name={'Kanu'} 
+  img={"https://www.sporting-heroes.net/content/thumbnails/00159/15808-zoom.jpg"}
+   description={"This is Kanu in Arsenal Jersey "}/>
 
      
     </>
